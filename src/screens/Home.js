@@ -30,7 +30,7 @@ const Home = ({ navigation }) => {
         return () => unsubscribe();
     }, []);
 
-    // Función para navegar a la pantalla 'Add'
+    // Función para navegar a la pantalla 'Add' --
     const goToAdd = () => { 
         navigation.navigate('Add');
     }
